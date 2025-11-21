@@ -1,0 +1,11 @@
+t=() #empty tuple
+print(t)
+t=(7,"newton",27.7)
+print(t)
+marks=(99,100,98,99,100)
+print(len(marks))
+marks=marks+(100,)
+print(marks)
+print(marks.count(100))
+color=("blue","black","red","orange","yellow")
+print(color[1:4])
