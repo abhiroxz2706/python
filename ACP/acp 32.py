@@ -10,10 +10,10 @@ sprite_col=pygame.Color("lightblue")
 x,y=320,400
 sprite_width,sprite_height=100,200
 
-text = pygame.font.Font(None, 10).render('This is a sprite ', True,
+text = pygame.font.Font(None, 27).render('This is a sprite ', True,
     pygame.Color('white'))
-text_x=310
-text_y=390
+text_x=320
+text_y=150
 
 running = True
 while running:
